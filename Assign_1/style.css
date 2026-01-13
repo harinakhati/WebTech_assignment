@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+#header {
+    height: 8%;
+    background-color: rgb(187, 213, 221);
+    text-align: center;
+}
+
+#container {
+    height: 84%;
+    display: flex;
+}
+
+#part_1, #part_2, #part_3 {
+    width: 33.33%;
+    border: 1px solid black;
+    background: #edd8d8;
+}
+
+#footer {
+    height: 8%;
+    background-color: lightgray;
+    text-align:center;
+}
