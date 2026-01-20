@@ -11,21 +11,29 @@ body {
     height: 8%;
     background-color: rgb(187, 213, 221);
     text-align: center;
+    border-bottom: 1px solid black;
+
+
 }
 
 #container {
     height: 84%;
     display: flex;
+    margin: 3px;
 }
 
 #part_1, #part_2, #part_3 {
     width: 33.33%;
     border: 1px solid black;
     background: #edd8d8;
+    margin: 3px;
+    
+
 }
 
 #footer {
     height: 8%;
     background-color: lightgray;
     text-align:center;
+    border-top: 1px solid black;
 }
